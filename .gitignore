@@ -1,0 +1,5 @@
+venv
+venv/lib/python3.11/site-packages/jedi/third_party/typeshed/stdlib/3/venv
+classification-of-defects-in-a-rotary-machine
+sample.csv
+signal_train.csv
