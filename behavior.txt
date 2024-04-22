@@ -1,0 +1,240 @@
+<Dropout name=dropout_1, built=True> 0.45170174889581427
+Epoch 1/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 31s 111ms/step - accuracy: 0.2572 - loss: 2.2569 - val_accuracy: 0.2723 - val_loss: 1.5574
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.7801813589327493
+Epoch 2/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 112ms/step - accuracy: 0.3754 - loss: 1.6839 - val_accuracy: 0.4110 - val_loss: 1.5708
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.36766316734095983
+Epoch 3/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 115ms/step - accuracy: 0.4353 - loss: 1.4739 - val_accuracy: 0.4993 - val_loss: 1.1409
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.8239851362043538
+Epoch 4/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 113ms/step - accuracy: 0.4749 - loss: 1.3314 - val_accuracy: 0.5307 - val_loss: 1.0513
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.5799618017865072
+Epoch 5/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 112ms/step - accuracy: 0.4836 - loss: 1.2597 - val_accuracy: 0.5553 - val_loss: 0.9740
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.666335581566116
+Epoch 6/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 116ms/step - accuracy: 0.5089 - loss: 1.2127 - val_accuracy: 0.5927 - val_loss: 0.8976
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.6870133255988693
+Epoch 7/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 113ms/step - accuracy: 0.5252 - loss: 1.1339 - val_accuracy: 0.6157 - val_loss: 0.8570
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.38254963903342676
+Epoch 8/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 117ms/step - accuracy: 0.5492 - loss: 1.0677 - val_accuracy: 0.6397 - val_loss: 0.8428
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.21796940679851406
+Epoch 9/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 113ms/step - accuracy: 0.5693 - loss: 1.0081 - val_accuracy: 0.6630 - val_loss: 0.8311
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.8571895384779542
+Epoch 10/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 112ms/step - accuracy: 0.5892 - loss: 0.9665 - val_accuracy: 0.6450 - val_loss: 0.8124
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.6642827468254343
+Epoch 11/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 114ms/step - accuracy: 0.6065 - loss: 0.9325 - val_accuracy: 0.6913 - val_loss: 0.7488
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.809865186155048
+Epoch 12/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 112ms/step - accuracy: 0.6189 - loss: 0.8980 - val_accuracy: 0.6910 - val_loss: 0.7617
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.08277632881862085
+Epoch 13/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 119ms/step - accuracy: 0.6291 - loss: 0.8735 - val_accuracy: 0.7027 - val_loss: 0.7025
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.8928397319175821
+Epoch 14/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 21s 106ms/step - accuracy: 0.6501 - loss: 0.8303 - val_accuracy: 0.6947 - val_loss: 0.7565
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.9905557980787357
+Epoch 15/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 21s 107ms/step - accuracy: 0.6643 - loss: 0.8067 - val_accuracy: 0.7277 - val_loss: 0.6519
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.46745512951437784
+Epoch 16/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 20s 103ms/step - accuracy: 0.6701 - loss: 0.7780 - val_accuracy: 0.7310 - val_loss: 0.6392
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.15315848511815489
+Epoch 17/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 113ms/step - accuracy: 0.6751 - loss: 0.7697 - val_accuracy: 0.7067 - val_loss: 0.6831
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.8607134252317659
+Epoch 18/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 20s 103ms/step - accuracy: 0.6874 - loss: 0.7414 - val_accuracy: 0.7393 - val_loss: 0.6013
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.6681535617809589
+Epoch 19/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 19s 96ms/step - accuracy: 0.6896 - loss: 0.7364 - val_accuracy: 0.7373 - val_loss: 0.5889
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.557653050066664
+Epoch 20/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 19s 95ms/step - accuracy: 0.7061 - loss: 0.6949 - val_accuracy: 0.7553 - val_loss: 0.5684
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.8963658777622885
+Epoch 21/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 19s 99ms/step - accuracy: 0.7188 - loss: 0.6682 - val_accuracy: 0.6467 - val_loss: 0.9173
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.8879500264990549
+Epoch 22/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 93ms/step - accuracy: 0.7328 - loss: 0.6546 - val_accuracy: 0.6153 - val_loss: 1.0787
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.0096198486795942
+Epoch 23/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 93ms/step - accuracy: 0.7420 - loss: 0.6297 - val_accuracy: 0.7097 - val_loss: 0.6898
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.011066694997436288
+Epoch 24/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 93ms/step - accuracy: 0.7526 - loss: 0.6010 - val_accuracy: 0.6893 - val_loss: 0.7727
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.19577109175473062
+Epoch 25/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 93ms/step - accuracy: 0.7558 - loss: 0.6051 - val_accuracy: 0.6847 - val_loss: 0.7628
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.12751200175268063
+Epoch 26/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 19s 95ms/step - accuracy: 0.7648 - loss: 0.5897 - val_accuracy: 0.6940 - val_loss: 0.7441
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.9865179254397826
+Epoch 27/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 90ms/step - accuracy: 0.7839 - loss: 0.5578 - val_accuracy: 0.6577 - val_loss: 0.8945
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.047966114544917504
+Epoch 28/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 89ms/step - accuracy: 0.7927 - loss: 0.5343 - val_accuracy: 0.7737 - val_loss: 0.5394
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.5630289263537498
+Epoch 29/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 89ms/step - accuracy: 0.7983 - loss: 0.5214 - val_accuracy: 0.6110 - val_loss: 1.1387
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.5189647746540704
+Epoch 30/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 92ms/step - accuracy: 0.8058 - loss: 0.5006 - val_accuracy: 0.7690 - val_loss: 0.5571
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.6805159083167572
+Epoch 31/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 92ms/step - accuracy: 0.8096 - loss: 0.4834 - val_accuracy: 0.6767 - val_loss: 0.8840
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.7748332669421139
+Epoch 32/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 91ms/step - accuracy: 0.8182 - loss: 0.4704 - val_accuracy: 0.8117 - val_loss: 0.4597
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.22244613812641423
+Epoch 33/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 17s 86ms/step - accuracy: 0.8318 - loss: 0.4470 - val_accuracy: 0.7650 - val_loss: 0.5491
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.04814901387293047
+Epoch 34/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 18s 93ms/step - accuracy: 0.8299 - loss: 0.4488 - val_accuracy: 0.8137 - val_loss: 0.4690
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.5253495901822165
+Epoch 35/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 20s 104ms/step - accuracy: 0.8273 - loss: 0.4531 - val_accuracy: 0.6653 - val_loss: 0.9511
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.05209746094522305
+Epoch 36/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 111ms/step - accuracy: 0.8427 - loss: 0.4317 - val_accuracy: 0.7033 - val_loss: 0.8188
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.7922884940707106
+Epoch 37/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 113ms/step - accuracy: 0.8366 - loss: 0.4385 - val_accuracy: 0.8607 - val_loss: 0.3509
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.9397873003200684
+Epoch 38/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 114ms/step - accuracy: 0.8502 - loss: 0.4119 - val_accuracy: 0.8850 - val_loss: 0.3011
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.5551991385797042
+Epoch 39/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 116ms/step - accuracy: 0.8474 - loss: 0.4056 - val_accuracy: 0.8387 - val_loss: 0.4029
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.27146153732286016
+Epoch 40/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 111ms/step - accuracy: 0.8497 - loss: 0.4052 - val_accuracy: 0.6673 - val_loss: 0.9843
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.5604566243414547
+Epoch 41/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 115ms/step - accuracy: 0.8444 - loss: 0.4156 - val_accuracy: 0.8673 - val_loss: 0.3521
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.2920654436461205
+Epoch 42/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 115ms/step - accuracy: 0.8576 - loss: 0.3851 - val_accuracy: 0.8973 - val_loss: 0.2714
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.6222901886194433
+Epoch 43/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 111ms/step - accuracy: 0.8554 - loss: 0.3944 - val_accuracy: 0.8660 - val_loss: 0.3512
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.13573184147156736
+Epoch 44/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 110ms/step - accuracy: 0.8612 - loss: 0.3747 - val_accuracy: 0.8093 - val_loss: 0.4800
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.4701804166040452
+Epoch 45/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 111ms/step - accuracy: 0.8583 - loss: 0.3850 - val_accuracy: 0.9010 - val_loss: 0.2723
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.16986135990431073
+Epoch 46/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 114ms/step - accuracy: 0.8613 - loss: 0.3700 - val_accuracy: 0.7823 - val_loss: 0.6207
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.992928799059898
+Epoch 47/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 115ms/step - accuracy: 0.8544 - loss: 0.3817 - val_accuracy: 0.8947 - val_loss: 0.2755
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.3448812707795428
+Epoch 48/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 112ms/step - accuracy: 0.8660 - loss: 0.3654 - val_accuracy: 0.8597 - val_loss: 0.3603
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.43283427358319393
+Epoch 49/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 117ms/step - accuracy: 0.8650 - loss: 0.3738 - val_accuracy: 0.8177 - val_loss: 0.4706
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.9583624033268321
+Epoch 50/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 112ms/step - accuracy: 0.8796 - loss: 0.3323 - val_accuracy: 0.9133 - val_loss: 0.2371
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.4534648192834102
+Epoch 51/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 112ms/step - accuracy: 0.8630 - loss: 0.3766 - val_accuracy: 0.8673 - val_loss: 0.3488
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.7688703341615258
+Epoch 52/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 112ms/step - accuracy: 0.8756 - loss: 0.3392 - val_accuracy: 0.8440 - val_loss: 0.4098
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.12146827755000356
+Epoch 53/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 113ms/step - accuracy: 0.8728 - loss: 0.3498 - val_accuracy: 0.8867 - val_loss: 0.2990
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.08004505065420153
+Epoch 54/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 40s 110ms/step - accuracy: 0.8736 - loss: 0.3536 - val_accuracy: 0.9063 - val_loss: 0.2605
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.7218881563727464
+Epoch 55/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 22s 110ms/step - accuracy: 0.8767 - loss: 0.3353 - val_accuracy: 0.8963 - val_loss: 0.2691
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.15149333701099665
+Epoch 56/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 20s 102ms/step - accuracy: 0.8720 - loss: 0.3387 - val_accuracy: 0.9073 - val_loss: 0.2505
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.7316177981548161
+Epoch 57/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 21s 106ms/step - accuracy: 0.8815 - loss: 0.3319 - val_accuracy: 0.7310 - val_loss: 0.7640
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.19757279673131312
+Epoch 58/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 20s 103ms/step - accuracy: 0.8802 - loss: 0.3285 - val_accuracy: 0.9023 - val_loss: 0.2589
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.9142163681123888
+Epoch 59/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 117ms/step - accuracy: 0.8876 - loss: 0.3068 - val_accuracy: 0.8973 - val_loss: 0.2810
+updating sttdev in training
+<Dropout name=dropout_1, built=True> 0.0366935483882298
+Epoch 60/60
+196/196 ━━━━━━━━━━━━━━━━━━━━ 23s 117ms/step - accuracy: 0.8862 - loss: 0.3181 - val_accuracy: 0.9003 - val_loss: 0.2535
+94/94 ━━━━━━━━━━━━━━━━━━━━ 2s 16ms/step  
