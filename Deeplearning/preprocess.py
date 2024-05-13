@@ -5,7 +5,19 @@ import glob
 import os
 import tensorflow as tf
 
+from sklearn.preprocessing import MinMaxScaler,normalize
 
+def _normalize(slice:np.ndarray) -> np.ndarray:
+    #shape = (150,4)
+    flatten = slice.flatten()
+    min_val = np.min(flatten)
+    max_val = np.max(flatten)
+    scaled_data = (flatten - min_val) / (max_val - min_val)
+    return scaled_data
+
+    
+
+    
 
 def prepare():
     
@@ -14,15 +26,18 @@ def prepare():
     
     data = []
     
+    
     for f in csv_files: 
                 
             label = f.split('/')[2].split('.')[0][-1]
             df = pd.read_csv(f)
             
-            a = np.array_split(df.iloc[:,1], 1000)
+            a = np.array_split(df.iloc[:,0:4], 4000)
+            
+
+            for j in range(0,4000):
+                a[j] = _normalize(np.asarray(a[j]))
                 
-            for j in range(0,1000):
-                    
                 data.append(
                         
                     [np.array(a[j][:600], dtype=np.float64),
@@ -30,10 +45,12 @@ def prepare():
 
                 )
        
-            
+    
     df = pd.DataFrame(data, columns=['TS','label'])
 
     df = df.sample(frac = 1)
+
+    print(len(df['TS']))
 
     return df
 

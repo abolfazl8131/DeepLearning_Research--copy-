@@ -10,9 +10,10 @@ import random
 from contextlib import redirect_stdout
 from callbacks import model_checkpoint_callback,tensorboard
 from optimizers import adam
-from simple import simple_conv
 
-model = simple_conv(INPUT_SHAPE, OUTPUT_DIM)
+from ispl import ispl_inception
+
+model = ispl_inception(INPUT_SHAPE, OUTPUT_DIM, 2)
 
 X_train,Y_train,X_Test,Y_Test = split(TRAIN_SIZE)
 
@@ -33,8 +34,9 @@ history = model.fit(
         Y_train, 
         epochs=EPOCHES,
         batch_size = 128,
-        validation_data=[X_Test, Y_Test],
-        callbacks=[model_checkpoint_callback,tensorboard]
+        validation_split = 0.2,
+        callbacks=[model_checkpoint_callback,tensorboard],
+        
          
 )
 

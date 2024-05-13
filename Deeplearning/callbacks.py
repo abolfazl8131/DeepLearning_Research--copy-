@@ -1,6 +1,6 @@
 import keras
 
-checkpoint_filepath = './tmp/checkpoint.keras'
+checkpoint_filepath = './tmp/checkpoint3.keras'
 
 
 model_checkpoint_callback = keras.callbacks.ModelCheckpoint(
