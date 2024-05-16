@@ -33,7 +33,7 @@ history = model.fit(
         X_train,
         Y_train, 
         epochs=EPOCHES,
-        batch_size = 128,
+        batch_size = 64,
         validation_split = 0.2,
         callbacks=[model_checkpoint_callback,tensorboard],
         
