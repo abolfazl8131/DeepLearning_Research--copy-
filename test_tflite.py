@@ -4,22 +4,21 @@ from tensorflow.keras.models import load_model
 from Deeplearning.preprocess import split
 from Deeplearning.variables import TRAIN_SIZE
 import keras
-#from sklearn.metrics import confusion_matrix,ConfusionMatrixDisplay
-#import matplotlib.pyplot as plt
+
+_,_,X,Y = split(TRAIN_SIZE)
 
 
 interpreter = tf.lite.Interpreter('/home/abolfazl/Desktop/DeepLearning_Research (copy)/tflite/model3.tflite')
 interpreter.allocate_tensors() 
+my_signature = interpreter.get_signature_runner()
+x = X[0].reshape([1,600,1])
+print(x.shape)
+x = tf.cast(x, tf.float32)
+output = my_signature(inputs=x)
 
-output = interpreter.get_output_details()[0]
-input = interpreter.get_input_details()[0]
-
-input_data = tf.constant(1., shape=[1, 600,1])
-interpreter.set_tensor(input['index'], input_data)
-interpreter.invoke()
-print(interpreter.get_tensor(output['index']).shape)
-print(interpreter.get_tensor(input['index']).shape)
-
+pred_label = tf.argmax(output['output_0'],axis=1)
+print("predicted:",pred_label)
+print("real",tf.argmax(Y[0]))
 
 # model = keras.models.load_model('/home/abolfazl/Desktop/DeepLearning_Research (copy)/tmp/checkpoint3.keras')
 # tf.saved_model.save(model, "tf-model3")
