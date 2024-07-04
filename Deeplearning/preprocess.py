@@ -5,7 +5,6 @@ import glob
 import os
 import tensorflow as tf
 
-from sklearn.preprocessing import MinMaxScaler,normalize
 
 def _normalize(slice:np.ndarray) -> np.ndarray:
     #shape = (150,4)

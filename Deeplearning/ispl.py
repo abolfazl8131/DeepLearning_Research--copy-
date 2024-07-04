@@ -10,11 +10,11 @@ def ispl_inception(x_shape,
                    network_depth=5,
                    use_residual=True,
                    use_bottleneck=True,
-                   max_kernel_size=20,
-                  
+                   max_kernel_size=20,  
                    bottleneck_size=32,
                    regularization_rate=0.01,
                 ):
+    
     dim_length = x_shape[0]  # number of samples in a time series
     dim_channels = x_shape[1]  # number of channels
     weightinit = 'lecun_uniform'  # weight initialization

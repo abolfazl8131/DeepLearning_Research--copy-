@@ -11,14 +11,16 @@ _,_,X,Y = split(TRAIN_SIZE)
 interpreter = tf.lite.Interpreter('/home/abolfazl/Desktop/DeepLearning_Research (copy)/tflite/model3.tflite')
 interpreter.allocate_tensors() 
 my_signature = interpreter.get_signature_runner()
-x = X[0].reshape([1,600,1])
-print(x.shape)
-x = tf.cast(x, tf.float32)
-output = my_signature(inputs=x)
 
-pred_label = tf.argmax(output['output_0'],axis=1)
-print("predicted:",pred_label)
-print("real",tf.argmax(Y[0]))
+for i in range(200):
+    x = X[i].reshape([1,600,1])
+    print(x.shape)
+    x = tf.cast(x, tf.float32)
+    output = my_signature(inputs=x)
+
+    pred_label = tf.argmax(output['output_0'],axis=1)
+    print("predicted:",pred_label)
+    print("real",int(tf.argmax(Y[i])))
 
 # model = keras.models.load_model('/home/abolfazl/Desktop/DeepLearning_Research (copy)/tmp/checkpoint3.keras')
 # tf.saved_model.save(model, "tf-model3")
