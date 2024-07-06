@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+service Signal {
+  
+  rpc SendSignal (SignalREQ) returns (Prediction) {}
+  
+}
+
+
+message SignalREQ {
+  repeated float signal = 1;
+}
+
+
+message Prediction {
+  optional string predicton = 1;
+}
