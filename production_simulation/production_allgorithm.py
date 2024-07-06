@@ -3,7 +3,7 @@ import numpy as np
 from queue import Queue
 import threading
 
-q = Queue(maxsize = 1)
+
 
 def _normalize(slice:np.ndarray) -> np.ndarray:
     #shape = (150,4)
@@ -41,20 +41,26 @@ def pipeline(X:np.ndarray):
     return predict(X_)
 
 def generate():
-    sampl = np.random.uniform(low=4.5, high=6.8, size=(4,))
+    sampl = np.random.uniform(low=3.2, high=100.0, size=(4,))
     return sampl
 
 def simulate():
-    X = []
+    X = Queue(maxsize=150)
+
     while True:
+        
         sampl = generate()
-        X.append(sampl)
-        if len(X) == 150:
-            X_ = np.array(X)
+        
+        if X.full():
+            X_ = np.array(list(X.queue))
             print(pipeline(X_))
-            X.clear()
+            X.get()
+
+        X.put(sampl)    
+        
             
         
+
 
 if __name__ =="__main__":
     t1 = threading.Thread(target=simulate, args=())
